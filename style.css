@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+.hero{
+    height:100vh;
+
+    background-image:url("./imagens/capa-do-jogo.png");
+    background-position:center;
+    background-size: contain;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.hero p{
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+
+    padding:12px 25px;
+
+    background:#ff4500;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:5px;
+}
+
+.sobre,
+.features,
+.galeria{
+    padding:60px 10%;
+    text-align: center;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+
+    background:#222;
+
+    padding:20px;
+
+    border-radius:10px;
+}
+
+.imagens{
+    display:flex;
+    gap:20px;
+}
+
+.imagens img{
+    width:50%;
+    border-radius:10px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+}
